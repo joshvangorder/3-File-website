@@ -478,3 +478,14 @@ textarea {
     align-items: flex-start;
   }
 }
+
+/* Service Areas layout improvement */
+#service-areas .services-grid {
+  grid-template-columns: 1fr;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#service-areas .card {
+  text-align: center;
+}
